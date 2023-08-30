@@ -1,0 +1,45 @@
+body {
+  margin: 0;
+  display: flex;
+  justify-content: center;
+}
+.app {
+  margin-top: 150px;
+  border: solid 2px black;
+  border-radius: 10px;
+  padding: 00px 20px 20px 20px;
+}
+
+.title {
+  text-align: center;
+}
+
+.app button {
+  border-radius: 5px;
+  background-color: #e7e7e7;
+  border: 2px solid #e7e7e7;
+}
+
+.list {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.list p {
+  margin-right: 10px;
+}
+
+.input button {
+  margin-left: 10px;
+}
+
+.input button:hover,
+.list button:hover {
+  cursor: pointer;
+}
+
+.input input {
+  border-radius: 4px;
+  border: 2px solid black;
+}
